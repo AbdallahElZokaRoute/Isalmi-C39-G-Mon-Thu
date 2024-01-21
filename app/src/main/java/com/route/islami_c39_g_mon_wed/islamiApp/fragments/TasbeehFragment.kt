@@ -29,7 +29,6 @@ class TasbeehFragment : Fragment() {
         binding.tasbeh.setOnClickListener{
             if (num in 1..32){
                 binding.counter.text = "${num++}"
-                num++
             }
             else if (num == 33) {
                 num = 1
