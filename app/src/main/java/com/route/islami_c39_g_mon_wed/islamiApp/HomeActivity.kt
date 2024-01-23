@@ -10,6 +10,7 @@ import com.route.islami_c39_g_mon_wed.islamiApp.fragments.QuranFragment
 import com.route.islami_c39_g_mon_wed.islamiApp.fragments.RadioFragment
 import com.route.islami_c39_g_mon_wed.islamiApp.fragments.TasbeehFragment
 
+
 class HomeActivity : AppCompatActivity() {
     private lateinit var binding: ActivityHomeBinding
     override fun onCreate(savedInstanceState: Bundle?) {
