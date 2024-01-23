@@ -3,4 +3,11 @@
     <string name="home">Home</string>
     <string name="profile">Profile</string>
     <string name="islami">Islami</string>
+    <string name="addad_altasbeehat">عدد التسبيحات</string>
+    <string name="sobhanAllah">سبحان الله</string>
+    <string name="zero">0</string>
+    <string name="alhamdLellah">الحمد لله</string>
+    <string name="AllahAkbar">الله اكبر</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
