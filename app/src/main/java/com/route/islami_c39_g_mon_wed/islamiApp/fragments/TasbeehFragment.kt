@@ -22,23 +22,28 @@ class TasbeehFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        var num = 1
-        var i = 0
+        var tasbehCounter = 1
+        var tasbehListCounter = 0
+        var rotationAngle = 5f
         Tasbeh = listOf("الله اكبر","الحمدلله","سبحان الله")
-        binding.counter.text = "$num"
+        binding.counter.text = "$tasbehCounter"
+
         binding.tasbeh.setOnClickListener{
-            if (num in 1..32){
-                binding.counter.text = "${num++}"
+            if (tasbehCounter in 1..32){
+                binding.counter.text = "${tasbehCounter++}"
+
             }
-            else if (num == 33) {
-                num = 1
-                binding.counter.text = "$num"
-                if (i == 3){
-                    i = 0
-                    binding.tasbeh.text = Tasbeh[i]
+            else if (tasbehCounter == 33) {
+                tasbehCounter = 1
+                binding.counter.text = "$tasbehCounter"
+                if (tasbehListCounter == 3){
+                    tasbehListCounter = 0
+                    binding.tasbeh.text = Tasbeh[tasbehListCounter]
                 }
-                binding.tasbeh.text = Tasbeh[i++]
+                binding.tasbeh.text = Tasbeh[tasbehListCounter++]
             }
+            rotationAngle+=5
+            binding.body.rotation = rotationAngle
         }
 
     }
