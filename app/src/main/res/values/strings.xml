@@ -3,4 +3,6 @@
     <string name="home">Home</string>
     <string name="profile">Profile</string>
     <string name="islami">Islami</string>
+    <string name="count">عدد التسبيجات</string>
+    <string name="tasbeeh">سبحان الله</string>
 </resources>

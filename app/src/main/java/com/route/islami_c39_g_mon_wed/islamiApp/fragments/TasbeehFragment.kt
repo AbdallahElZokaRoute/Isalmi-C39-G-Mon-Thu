@@ -10,7 +10,8 @@ import com.route.islami_c39_g_mon_wed.databinding.FragmentTasbeehBinding
 
 class TasbeehFragment : Fragment() {
 
-    lateinit var binding: FragmentTasbeehBinding
+    private lateinit var binding: FragmentTasbeehBinding
+    private var count = 0
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -23,5 +24,15 @@ class TasbeehFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        binding.currentValue.text = "$count"
+        binding.currentValue.setOnClickListener {
+            count = 0
+            binding.currentValue.text = "$count"
+        }
+
+        binding.countUp.setOnClickListener {
+            count++
+            binding.currentValue.text = "$count"
+        }
     }
 }
