@@ -6,8 +6,11 @@ plugins {
 android {
     namespace = "com.route.islami_c39_g_mon_wed"
     compileSdk = 34
+
     buildFeatures {
         viewBinding = true
+
+        
     }
     defaultConfig {
         applicationId = "com.route.islami_c39_g_mon_wed"

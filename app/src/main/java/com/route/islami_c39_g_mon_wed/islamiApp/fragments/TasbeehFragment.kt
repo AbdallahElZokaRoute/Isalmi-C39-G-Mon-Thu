@@ -11,6 +11,8 @@ import com.route.islami_c39_g_mon_wed.databinding.FragmentTasbeehBinding
 class TasbeehFragment : Fragment() {
 
     lateinit var binding: FragmentTasbeehBinding
+    var counter =0
+    var counters =0
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
@@ -22,6 +24,38 @@ class TasbeehFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        binding.bodySebha.setOnClickListener{
+            binding.bodySebha.rotation+=33F
+            counter++
+
+            binding.tsbeehCounter.setText(counter.toString())
+            if (counter<=30){
+                binding.tsbeeh.setText("سبحان الله")
+            }
+            else if (counter>30&&counter<=60){
+                binding.tsbeeh.setText("الحمداالله")
+            }
+            else if (counter>60&&counter<=90){
+                binding.tsbeeh.setText("الله اكبر")
+            }
+            else if (counter>90&&counter<=120){
+                binding.tsbeeh.setText("لا اله الا الله  ")
+
+
+
+            }
+            else{
+                counter=0
+
+            }
+
+
+
+
+
+
+
+        }
 
     }
 }
