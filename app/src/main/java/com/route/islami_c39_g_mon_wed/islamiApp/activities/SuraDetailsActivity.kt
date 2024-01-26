@@ -1,9 +1,10 @@
-package com.route.islami_c39_g_mon_wed.islamiApp
+package com.route.islami_c39_g_mon_wed.islamiApp.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.route.islami_c39_g_mon_wed.databinding.ActivitySuraDetailsBinding
 import com.route.islami_c39_g_mon_wed.islamiApp.adpaters.VersesAdapter
+import com.route.islami_c39_g_mon_wed.islamiApp.constants.Constants
 
 class SuraDetailsActivity : AppCompatActivity() {
     lateinit var binding: ActivitySuraDetailsBinding

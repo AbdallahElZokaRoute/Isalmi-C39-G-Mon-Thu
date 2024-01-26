@@ -1,4 +1,4 @@
-package com.route.islami_c39_g_mon_wed.islamiApp.adpaters.model
+package com.route.islami_c39_g_mon_wed.islamiApp.data
 
 data class SuraNameIndex(val name: String, val index: Int)
 

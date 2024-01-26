@@ -13,16 +13,22 @@
         android:theme="@style/Theme.IslamiC39GMonWed"
         tools:targetApi="31">
         <activity
-            android:name=".islamiApp.HadethDetailsActivity"
+            android:name=".islamiApp.activities.HadethDetailsActivity"
             android:exported="false" />
         <activity
-            android:name=".islamiApp.SuraDetailsActivity"
+            android:name=".islamiApp.activities.RadioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".islamiApp.activities.SuraDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".islamiApp.activities.TasbeehActivity"
             android:exported="false" />
         <activity
             android:name=".islamiApp.HomeActivity"
-            android:exported="false" />
+            android:exported="true" />
         <activity
-            android:name=".islamiApp.SplashActivity"
+            android:name=".islamiApp.splash_screen.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,9 +36,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:exported="true" />
+
     </application>
 
 </manifest>

@@ -3,4 +3,7 @@
     <string name="home">Home</string>
     <string name="profile">Profile</string>
     <string name="islami">Islami</string>
+	<string name="add_eltsbe7">عدد التسبيحات</string>
+	<string name="counternumber">0</string>
+	<string name="tsbeha">تسبيحه</string>
 </resources>

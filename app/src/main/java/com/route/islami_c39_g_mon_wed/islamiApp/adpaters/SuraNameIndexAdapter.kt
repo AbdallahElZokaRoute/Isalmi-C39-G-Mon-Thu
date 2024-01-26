@@ -5,7 +5,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView.Adapter
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.route.islami_c39_g_mon_wed.databinding.ItemSuraNameBinding
-import com.route.islami_c39_g_mon_wed.islamiApp.adpaters.model.SuraNameIndex
+import com.route.islami_c39_g_mon_wed.islamiApp.data.SuraNameIndex
 
 class SuraNameIndexAdapter(val itemsList: List<SuraNameIndex>?) :
     Adapter<SuraNameIndexAdapter.SuraNameIndexViewHolder>() {

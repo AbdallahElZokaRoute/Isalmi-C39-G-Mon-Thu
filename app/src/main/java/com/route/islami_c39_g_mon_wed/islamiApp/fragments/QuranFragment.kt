@@ -7,11 +7,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.route.islami_c39_g_mon_wed.databinding.FragmentQuranBinding
-import com.route.islami_c39_g_mon_wed.islamiApp.Constants
-import com.route.islami_c39_g_mon_wed.islamiApp.SuraDetailsActivity
+import com.route.islami_c39_g_mon_wed.islamiApp.constants.Constants
+import com.route.islami_c39_g_mon_wed.islamiApp.activities.SuraDetailsActivity
 import com.route.islami_c39_g_mon_wed.islamiApp.adpaters.SuraNameIndexAdapter
-import com.route.islami_c39_g_mon_wed.islamiApp.adpaters.model.SuraNameIndex
-import com.route.islami_c39_g_mon_wed.islamiApp.adpaters.model.arSuras
+import com.route.islami_c39_g_mon_wed.islamiApp.data.SuraNameIndex
+import com.route.islami_c39_g_mon_wed.islamiApp.data.arSuras
 
 class QuranFragment : Fragment() {
     lateinit var adapter: SuraNameIndexAdapter

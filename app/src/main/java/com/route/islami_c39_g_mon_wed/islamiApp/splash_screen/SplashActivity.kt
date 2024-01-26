@@ -1,11 +1,11 @@
-package com.route.islami_c39_g_mon_wed.islamiApp
+package com.route.islami_c39_g_mon_wed.islamiApp.splash_screen
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.os.Handler
-import android.os.Looper
 import com.route.islami_c39_g_mon_wed.R
+import com.route.islami_c39_g_mon_wed.islamiApp.HomeActivity
 
 class SplashActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

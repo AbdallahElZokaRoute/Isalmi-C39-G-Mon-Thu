@@ -1,4 +1,4 @@
-package com.route.islami_c39_g_mon_wed.islamiApp
+package com.route.islami_c39_g_mon_wed.islamiApp.constants
 
 class Constants {
     //    public static String EXTRA_SURA_NAME = "suraName"
