@@ -6,16 +6,14 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.route.islami_c39_g_mon_wed.databinding.FragmentTasbeehBinding
-import com.route.islami_c39_g_mon_wed.islamiApp.data.TasbehaData
 import com.route.islami_c39_g_mon_wed.islamiApp.data.tsbeeha
 
 class TasbeehFragment : Fragment() {
 
     lateinit var binding: FragmentTasbeehBinding
 
-    var tsbeha = tsbeeha
-    var counter = 0
-    var currentTasbeeh = 0
+    private var tsbeha = tsbeeha
+    private var counter = 0
 
     override fun onCreateView(
         inflater: LayoutInflater,
